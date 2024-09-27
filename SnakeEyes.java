@@ -6,7 +6,7 @@ public class SnakeEyes {
         int snakeEyes = 0, num1, num2;
 
         Die die1 = new Die();
-        Die die2 = new Die(20);
+        Die die2 = new Die(6);
 
         for (int roll = 1; roll <= ROLLS; roll++) {
             num1 = die1.roll();
